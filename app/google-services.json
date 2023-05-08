@@ -1,0 +1,39 @@
+{
+  "project_info": {
+    "project_number": "1093290926914",
+    "project_id": "group6-schoolkit",
+    "storage_bucket": "group6-schoolkit.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:1093290926914:android:af110a31c6dec9b8b99edb",
+        "android_client_info": {
+          "package_name": "com.example.group6_schoolkit"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "1093290926914-ma845fq6uop361bvkblekld718r5nrgh.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBXOfGUPYFQiRWvXcSVRHcg3eC3BRa8Dgk"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "1093290926914-ma845fq6uop361bvkblekld718r5nrgh.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

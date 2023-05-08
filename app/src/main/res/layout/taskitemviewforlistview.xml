@@ -1,0 +1,81 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:background="#DBF3ED"
+    android:baselineAligned="false"
+    android:clickable="true"
+    android:orientation="horizontal"
+    tools:ignore="DuplicateClickableBoundsCheck">
+
+    <androidx.cardview.widget.CardView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="2sp"
+        android:layout_marginTop="5sp"
+        android:layout_marginRight="2sp"
+        android:layout_marginBottom="2sp"
+        app:cardBackgroundColor="#F2E7F8"
+        app:cardCornerRadius="20dp">
+
+        <TextView
+            android:id="@+id/textViewHomeDes"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="12dp"
+            android:layout_marginLeft="220dp"
+            android:layout_marginTop="48dp"
+            android:clickable="true"
+            android:text="Des"
+            android:textColor="#2E2E2E"
+            android:textSize="16sp" />
+
+        <Button
+            android:id="@+id/buttonHomeImportance"
+            android:layout_width="103dp"
+            android:layout_height="48dp"
+            android:layout_marginLeft="260dp"
+            android:layout_marginTop="4dp"
+            android:clickable="true"
+            android:contentDescription=" "
+            android:textColor="#2E2E2E"
+            app:cornerRadius="60px" />
+
+        <TextView
+            android:id="@+id/textViewHomeDate"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="120dp"
+            android:layout_marginTop="12dp"
+            android:clickable="true"
+            android:text="Date"
+            android:textColor="#2E2E2E"
+            android:textSize="16sp" />
+
+        <TextView
+            android:id="@+id/textViewHomeTitle"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="12dp"
+            android:layout_marginTop="12dp"
+            android:layout_weight="1"
+            android:clickable="true"
+            android:text="TextView"
+            android:textColor="#2E2E2E"
+            android:textSize="18sp"
+            tools:textSize="20sp" />
+
+        <TextView
+            android:id="@+id/textViewHomeTaskOwner"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="210dp"
+            android:layout_marginTop="12dp"
+            android:text="TextView"
+            android:textColor="#2E2E2E" />
+
+    </androidx.cardview.widget.CardView>
+
+</LinearLayout>

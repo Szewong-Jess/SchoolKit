@@ -1,0 +1,33 @@
+<resources>
+    <string name="app_name">Group6_SchoolKit</string>
+    <string name="title_home">Home</string>
+    <string name="title_dashboard">Tasks</string>
+    <string name="title_notifications">Create new task</string>
+    <string name="txtAllTasks">All Tasks...</string>
+    <string name="btnongoing">On Going...</string>
+    <string name="btncompleted">Completed</string>
+    <string name="cardTextTaskTitle">Please insert title here</string>
+    <string name="txtTaskTitle">Task\'s title</string>
+    <string name="textViewAllTasks">All Task...</string>
+    <string name="SwitchView">Switch View</string>
+    <string name="prmp">Select Role</string>
+    <string name="prompt">Select User</string>
+    <string name="selectState">Select Status</string>
+    <string-array name="importance">
+        <item>Low</item>
+        <item>Medium</item>
+        <item>High</item>
+    </string-array>
+    <string-array name="role">
+        <item>User</item>
+        <item>Admin</item>
+    </string-array>
+    <string-array name="status">
+        <item>Incomplete</item>
+        <item>Complete</item>
+    </string-array>
+    <string name="back"><![CDATA[<-]]></string>
+    <string name="forward"><![CDATA[->]]></string>
+
+
+</resources>
